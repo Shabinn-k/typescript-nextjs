@@ -15,3 +15,9 @@ let AdminDetails = {
     isPresent: false
 };
 let mix = ["a", "b", "c", 1];
+
+function getUserName(UserDetails) {
+    return (UserDetails.name,
+        UserDetails.age);
+}
+getUserName(UserDetails);

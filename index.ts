@@ -27,3 +27,16 @@ let AdminDetails: Details = {
 }
 
 let mix: (string | number)[] = ["a", "b", "c", 1]
+
+function getUserName(UserDetails: Details) {
+    return (
+        UserDetails.name,
+        UserDetails.age
+    )
+}
+getUserName(UserDetails)
+
+//named types
+type toggleSwitch="on" | "off"
+const isSwitch :toggleSwitch="off"
+
